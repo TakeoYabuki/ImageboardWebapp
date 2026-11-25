@@ -1,0 +1,23 @@
+{
+    "name": "imageboard/webapp",
+    "autoload": {
+        "psr-4": {
+            "Imageboard\\Webapp\\": "src/",
+            "Database\\": "Database/",
+            "Models\\": "Models/",
+            "Services\\": "Services/"
+        }
+    },
+    "authors": [
+        {
+            "name": "TKPRATT",
+            "email": "tenyo@gmail.com"
+        }
+    ],
+    "require": {
+        "vlucas/phpdotenv": "^5.8"
+    },
+    "require-dev": {
+        "fakerphp/faker": "^1.24"
+    }
+}

@@ -1,0 +1,3 @@
+<?php
+
+const MAX_CONTENT_LENGTH = 5000;
